@@ -1,0 +1,20 @@
+﻿<Window x:Class="project3.sendCode"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:project3"
+        mc:Ignorable="d"
+       Title="sendCode" Height="450" Width="800">
+    <Grid Background="#288dcd" >
+        <Label Content="Verify Email" HorizontalAlignment="Center" FontSize="30" Margin="0,15,0,334"/>
+        <Grid Margin="0,100,0,0">
+            <Label HorizontalAlignment="Left" Content="Enter Email Address" FontSize="15" Margin="150,19,0,265"/>
+            <TextBox Name="email" HorizontalAlignment="Left" Margin="150,69,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="333" Height="36"/>
+            <Button FontSize="20" Background="white" Content="Send" HorizontalAlignment="Left" Margin="364,120,0,0" VerticalAlignment="Top" Width="119" Height="37" Click="Button_Click"/>
+            <Label HorizontalAlignment="Left" Content="Enter code which is send on your email " FontSize="15" Margin="150,167,0,110"/>
+            <TextBox Name="code" HorizontalAlignment="Left" Margin="150,219,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="333" Height="36"/>
+            <Button FontSize="20" Background="White" Content="Verify Code" HorizontalAlignment="Left" Margin="364,260,0,0" VerticalAlignment="Top" Width="119" Click="Button_Click_1" Height="49"/>
+        </Grid>
+    </Grid>
+</Window>
